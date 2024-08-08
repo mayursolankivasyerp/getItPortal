@@ -1,0 +1,141 @@
+/* *********** Form Label * color start ************* */
+.allLabels {
+  color: red !important;
+  font-weight: 700 !important;
+}
+
+.error-message {
+  color: #e85347;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.tableFilterSearching {
+  font-weight: normal !important;
+}
+
+/* *********** Form Label * color end ************* */
+/* width */
+.custom_res::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Track */
+.custom_res::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custom_res::-webkit-scrollbar-thumb {
+  background: #bfc9d6;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.custom_res::-webkit-scrollbar-thumb:hover {
+  background: #bfc9d6;
+}
+
+/* custom */
+.custom-i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+.custom-icon {
+  color: #fff;
+
+  font-size: 22px;
+  padding: 30px;
+  border: none;
+  border-radius: 5px;
+}
+/* *********** TicketModuled form  image ************* */
+.formImageUpload {
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  height: 100%;
+}
+
+@media (max-width:768px) {
+  .btn-res {
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+
+  #mobile-table {
+    margin-top: 100px;
+    overflow-x: scroll;
+  }
+  .pdf{
+    margin-left: 75px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .custom-i {
+    right: 10px;
+    top: 10px;
+  }
+
+  .custom-icon {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+/* *********** TicketModule End ************* */
+
+/* *********** View TicketModule  Image & Description  Start************* */
+
+.image-zoom-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.image-zoom-container:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  transform: scale(3);
+}
+
+.buttons-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.buttons-container button {
+  margin-right: 5px;
+}
+
+.description-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+
+/* *********** View TicketModule  Image & Description  End************* */
+
+
+
+.clear-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.btn-primary {
+  background-color: #0083b9 !important;
+  border: none !important;
+}

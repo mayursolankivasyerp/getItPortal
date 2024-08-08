@@ -1,0 +1,26 @@
+.status-cell {
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: transparent; 
+    padding: 5px 12px 5px 28px;
+    border: 1px solid;
+    border-radius: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+.status-cell::before {
+    content: attr(data-status);
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin-top: -1px;
+    border-radius: 50%;
+    background: currentColor;
+  }
